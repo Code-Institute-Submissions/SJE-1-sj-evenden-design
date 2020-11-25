@@ -1,0 +1,97 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+.logo{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    padding-block-end: 20px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+/* Hero Section */
+
+#hero{
+    background-color: #ffffff;
+}
+
+ h1 {
+     display: block;
+     width: fit fit-content;
+     font-size: 60px;
+     position: relative;
+     color: black;
+} 
+
+#hero .cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black; 
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    margin-top: 20px;
+    transition: .8s ease-in;
+}
+
+#hero .cta:hover{
+    color: #F7AEF8;
+    background-color:#F7AEF8;
+}
+/* End Hero Section */
+
+/* About Section */
+
+#about{
+    background-color: #00509D;
+}
+/* End About Section */
+/* Services Section */
+
+#services{
+    background-color: #00AB8E;
+}
+/* End Services Section */
+/* Portfolio Section */
+
+#portfolio{
+    background-color: #F7AEF8;
+}
+/* End Portfolio Section */
+
+/* Contact Section */
+
+#contact{
+    background-color: #FFD000;
+}
+/* End Contact Section */
+
+/* Testimonials Section */
+
+#testimonial{
+    background-color: #FAFDF6;
+}
+/* End Testimonials Section */
