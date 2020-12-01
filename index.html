@@ -1,211 +1,287 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-   <a href="https://icons8.com/icon/65363/web-design">Web Design icon by Icons8</a>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" /> -->
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CREATIVE SOLUTIONS</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
     <title>Creative Solutions</title>
 </head>
-<body>
- <div id="header">
-    <div id="logo"> <img src="https://img.icons8.com/ios-filled/50/000000/filled-circle.png"/>
-    </div>
-    <nav class="nav-menu">
-        <ul>
-            <li class="active"><a href="#hero">Home</li>
-            <li><a href="#about">About</li>
-            <li><a href="#services">Services</li>
-            <li><a href="#contact">Contact</li>
-        </ul>
+    <body>
+
+    <!--====== Navigation =====-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fas fa-circle"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto"> 
+                        <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Porfolio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Get In Touch</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
     </nav>
-</header>
-  
-
-  <!-- ======= Hero Section ====== -->
-<section id="hero">
-    <div class="hero container">
-        <div>
-            <h1>Creative<br>Solutions.</h1>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex <br>aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos<br> quisquam cupiditate. Et nemo qui impedit suscipit alias ea. <br> Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-            <a href="#" type="button" class="cta">Portfolio</a>
+    <!--======= Images and Carousel =======-->
+<div id="slides" class="carousel slide" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/background.png">
+            <div class="carousel-caption">
+                <h1 class="display-2">Creative<br>Solutions.</h1>
+                <h3>Complete Creative Control</h3>
+                <button type="button" class="btn btn-outline-light btn-lg">Portfolio</button>
+            </div>
         </div>
+        <div class="carousel-item">
+            <img src="img/background2.png">
+        </div>
+        <div class="carousel-item">
+            <img src="img/background3.png">
+        </div>
+    </div>
+</div>
+
+<!--====== Jumbotrons =====--> 
+        <div class="container-fluid">
+            <div class="row jumbotron">
+                <div class="col-xs-12 col-md-9 col-lg-9 col-xl-10">
+                    <p class="lead">Let's Build a Great Brand Together, Call Our Team Today To Discuss Your Ideas. Want to Create an Intelligent Brand with Focus & Insight? </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+                    <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Works</button></a>
+                </div>
+            </div>
+          </div>
+    <!--
+<section class="about">
+    <div class="about-title">
+        <h2>About Me</h2>
+    </div>
+    <div class="about-pages">
+        <div>
+            <h2>Project 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate obcaecati ex quae necessitatibus accusamus exercitationem saepe temporibus voluptate. Dolores reiciendis nihil aliquid expedita perferendis. Similique optio animi facere odio obcaecati!</p>
+         </div>
+         <div>
+            <h2>Project 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate obcaecati ex quae necessitatibus accusamus exercitationem saepe temporibus voluptate. Dolores reiciendis nihil aliquid expedita perferendis. Similique optio animi facere odio obcaecati!</p>
+         </div>
+         <div>
+            <h2>Project 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate obcaecati ex quae necessitatibus accusamus exercitationem saepe temporibus voluptate. Dolores reiciendis nihil aliquid expedita perferendis. Similique optio animi facere odio obcaecati!</p>
+         </div>
+    </div>
+
+</section>
+-->
+   
+<!--====== Hero Section =====-->  
+<div class="welcome container-fluid padding">
+    <div class="welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Welcome</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+        <p class="lead">Holding Info - Creative Design & Print provide us with a high quality and efficient service that enables us to react quickly in a constantly changing environment.</p>
+    </div>
+</div>
+<!--====== Hero Section =====--> 
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fab fa-html5"></i>            
+                <h3>HTML5</h3>
+            <p>HTML5 is the latest evolution of the standard that defines HTML</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fab fa-css3"></i>
+             <h3>CSS</h3>
+            <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fab fa-python"></i>            
+            <h3>Python</h3>
+            <p>Python is an interpreted, high-level and general-purpose programming language.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fas fa-user-friends"></i>
+            <h3>User Experience</h3>
+            <p>Interaction design can be understood in simple (but not simplified) terms: it is the design of the interaction between users and products.</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fas fa-music"></i>
+            <h3>Music Production</h3>
+            <p>Sonic production and ideation. Preproduction, recording, mixing and mastering</p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <i class="fas fa-camera"></i>         
+            <h3>Digital Media</h3>
+            <p>Our team deliver, filmmakers, graphic designers, web designers, app developers and animators into a creative, exciting mix.</p>
+        </div>
+    </div>
+    <hr class="my-4">
+</div>
+
+<div class= "margin"></div>
+<section class="parallax">
+    <div class="parallax-inner">
+        <h1>Portfolio</h1>
     </div>
 </section>
-  <!--End Hero Section-->
-  <!-- ======= Hero Section ====== -->
-<section id="about">
-    <div class="about container">
-        <div>
+<div class="margin"></div>
+<!--====== Porfoflio Section =====-->  
 
-            <h1>Philosophy</h1>
-            <p>I believe that the work should be based on <br>friendly relations and positive emotions, <br>so continue to communicate with our customers and after the delivery of the project.</p>
-            <h2>About</h2>
-            <p>Hi, we are ....</p>
-            <a href="#" type="button" class="cta">FAQ's</a>
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-12 col-lg-6">
+            <h2>Portfolio</h2>
+            <p>Holding Info - Creative Design & Print provide us with a high quality and efficient service that enables us to react quickly in a constantly changing environment. </p>
+        <p>Holding Info - Creative Design & Print provide us with a high quality and efficient service that enables us to react quickly in a constantly changing environment. </p>        
         </div>
+    <div class="col-lg-6">
+        <img src="img/8ball1.png" class="img-fluid">
     </div>
-</section>
-  <!--End Hero Section-->
-  <!-- ===== Services Section ===== -->
-  <section id="services">
-    <div class="services container">
-        <div class="services-top">
-            <h1 class="section-title">Serv<span>i</span>ces</h1>
-
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex <br>aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos<br> quisquam cupiditate. Et nemo qui impedit suscipit alias ea. <br> Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-    </div>   
-    <div class="services-bottom">
-        <div class="services-item">
-            <div class="icon"><img src="https://img.icons8.com/cotton/64/000000/web-design.png"/></div>
-            <h2>Full Stack Development</h2>
-            <p>Et nemo qui impedit suscipit alias ea. <br> Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-        <div class="portfolio-item">
-            <div class="icon"><img src="https://img.icons8.com/cotton/64/000000/web-design.png"/></div>
-            <h2>Interaction Design</h2>
-            <p>Et nemo qui impedit suscipit alias ea. <br> Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-        <div class="portfolio-item">
-            <div class="icon"><img src="https://img.icons8.com/cotton/64/000000/web-design.png"/></div>
-            <h2>Digital Media Skillset</h2>
-            <p>Et nemo qui impedit suscipit alias ea. <br> Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-        <div class="portfolio-item">
-            <div class="icon"><img src="https://img.icons8.com/cotton/64/000000/web-design.png"/></div>
-            <h2>Music Production</h2>
-            <p>Et nemo qui impedit suscipit alias ea. <br> Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
     </div>
-  </div>
-  
-  </section>
-  <!-- ===== Portfolio Section ===== -->
-  <section id="portfolio">
-    <div class="portfolio container">
-        <div class="portfolio-top">
-            <h1 class="section-title">Port<span>f</span>olio</h1>
+</div>
 
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex <br>aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos<br> quisquam cupiditate. Et nemo qui impedit suscipit alias ea. <br> Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-    </div>   
-    <div class="portfolio-bottom">
-        <div class="portfolio-item">
-            <div class="icon"><img src="https://img.icons8.com/cotton/64/000000/web-design.png"/></div>
-            <h2>Full Stack Development</h2>
-            <p>Et nemo qui impedit suscipit alias ea. <br> Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-        <div class="portfolio-item">
-            <div class="icon"><img src="https://img.icons8.com/cotton/64/000000/web-design.png"/></div>
-            <h2>Interaction Design</h2>
-            <p>Et nemo qui impedit suscipit alias ea. <br> Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-        <div class="portfolio-item">
-            <div class="icon"><img src="https://img.icons8.com/cotton/64/000000/web-design.png"/></div>
-            <h2>Digital Media Skillset</h2>
-            <p>Et nemo qui impedit suscipit alias ea. <br> Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-        <div class="portfolio-item">
-            <div class="icon"><img src="https://img.icons8.com/cotton/64/000000/web-design.png"/></div>
-            <h2>Music Production</h2>
-            <p>Et nemo qui impedit suscipit alias ea. <br> Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-    </div>
-  </div>
-  
-  </section>
- <!--End Portfolio Section-->
-<!--Contact Section-->
- <section id="contact">
-    <div class="contact container">
-        <div class="contact-top"></div>
-            <h1 class="section-title">Get<span> I</span>n Touch</h1>
+<hr class="my-4">
 
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex <br>aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos<br> quisquam cupiditate. Et nemo qui impedit suscipit alias ea. <br> Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-    </div>   
-    <div class="contact-bottom"></div>
-  </div>
-  </section>
- <!--End Contact Section-->
- <!--Testimonial Section-->
-  <section id="testimonial">
-    <div class="testimonial container">
-        <div class="portfolio-top"></div>
-            <h1 class="section-title">Test<span>i</span>monial</h1>
 
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex <br>aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos<br> quisquam cupiditate. Et nemo qui impedit suscipit alias ea. <br> Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-    </div>   
-    <div class="portfolio-bottom"></div>
-  </div>
-  </section>
- <!--End Portfolio Section-->
-  
 
-  <footer class="container-fluid">
-        <div id="footer-details" class="row">
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">About</h5>
-                <p class="inline-block">
-                    Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for structural and design thinking.
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Download</h5>
-                <p class="inline-block">
-                    Need a printable version of my CV? Download it here.
-                    <a href="#" target="_blank" class="cv-pdf">
-                        <i class="fa fa-download" aria-hidden="true"></i>
-                        <span class="sr-only">Download link.</span>
-                    </a>
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Social</h5>
-                <ul class="list-inline social-links">
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                            <span class="sr-only">Twitter</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-pinterest" aria-hidden="true"></i>
-                            <span class="sr-only">Pinterest</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-instagram" aria-hidden="true"></i>
-                            <span class="sr-only">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a target="_blank" href="#">
-                            <i class="fa fa-youtube" aria-hidden="true"></i>
-                            <span class="sr-only">YouTube</span>
-                        </a>
-                    </li>
-                </ul>
+<!--====== Meet Team Section =====-->  
+<div class="container-fluid padding">
+<div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4"> Meet the Team</h1>
+        </div>
+</div>
+</div>
+<!--====== Cards Section =====-->  
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/team1.png">
+                <div class="card-body">
+                    <h4 class="card-title">John DOE</h4>
+                    <p class="card-text"> John is a web developer with 20 years industry experience</p>
+                    <a href="#" class="btn btn-outline-secondary">See Profiles</a>
+                </div>
             </div>
         </div>
-    </footer>
-</body>
-</html>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/team2.png">
+                <div class="card-body">
+                    <h4 class="card-title">Mary JOE</h4>
+                    <p class="card-text"> Mary is a web developer with 20 years industry experience</p>
+                    <a href="#" class="btn btn-outline-secondary">See Profiles</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="img/team3.png">
+                <div class="card-body">
+                    <h4 class="card-title">Phil DOE</h4>
+                    <p class="card-text"> Phil is a web developer with 20 years industry experience</p>
+                    <a href="#" class="btn btn-outline-secondary">See Profiles</a>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+<!--====== Two Column Section =====-->  
+<div class="container-fluid padding">
+<div class="row padding">
+    <div class="col-lg-6">
+        <h2>Our Philosophy....</h2>
+        <p>We believe that the work should be based on friendly relations and positive emotions, we continue to communicate with our customers and after the delivery of the project.</p>
+    </div>
+    <div class="col-lg-6">
+        <img src="img/desk.png" class="img-fluid">
+    </div>
+</div>
+</div>
+<hr class="my-4">
+<!--====== Connect Section =====-->  
+<div class="container-fluid padding">
+<div class="row text-center padding">
+        <div class="col-12">
+            <H2>Connect</H2>
+        </div>
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+        </div>
+</div>
+</div>
+
+<!--====== Footer Section =====-->  
+
+<footer>
+    <div class="container-fluid padding">
+        <div class="row text center">
+            <div class="col-md-4">
+                <hr class="light">
+                <i class="fas fa-circle"></i></a>
+                <hr class="light">
+                <p>555-555-5555</p>
+                <p>email@email.com</p>
+                <p>100 street Name</p>
+                <p>City, State, 000</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Our Hours</h5>
+                    <hr class="light">
+                    <p>Monday - Friday</p>
+                    <p>Monday - Friday</p>
+                    <p>Monday - Friday</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Our Hours</h5>
+                    <hr class="light">
+                    <p>City Country</p>
+                    
+                </div> 
+                <div class="col-12">
+                    <hr class="light">
+                    <h5>&copy;CREATIVE SOLUTIONS </h5>
+                </div>
+            </div>
+        </div>
+
+</footer>
+<script src="app.js" async defer></script>
+    </body>
+ </html>
