@@ -98,7 +98,7 @@ html, body{
     color: #ffde57;
 }
 
-.fa-user-friends{
+.fa-user{
     color:#4584b6;
 }
 
@@ -110,7 +110,7 @@ html, body{
     color: #F7AEF8;
 }
 
-.fa-html5,.fa-css3, .fa-python, .fa-user-friends, .fa-music, .fa-camera{
+.fa-html5,.fa-css3, .fa-python, .fa-user, .fa-music, .fa-camera{
     font-size: 3em;
     margin: 1rem;
     padding-bottom: 1rem;
