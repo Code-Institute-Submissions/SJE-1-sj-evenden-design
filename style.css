@@ -72,53 +72,7 @@ html, body{
 .padding{
     padding-bottom: 2rem;
 }
-/*New Parallax idea*/
-.about{
-    height: 100vh;
-    display: flex;
-}
 
-.about-title {
-    width: 50%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    margin: 0!important;
-}
-
-.about-pages{
-    width: 50%
-}
-
-.about-pages div{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
-}
-
-.about-pages div> p{
-    width: 80%;
-    font-size: 18px;
-    line-height: 30px;
-}
-
-.about-pages div:nth-child(1){
-    background-color: rgb(56, 134, 89)
-}
-
-.about-pages div:nth-child(2){
-    background-color: rgb(252, 211, 3)
-}
-
-.about-pages div:nth-child(3){
-    background-color: #506cf0
-}
-}
 /*---Welcome section --*/
 .welcome {
     width: 75%;
@@ -180,12 +134,12 @@ html, body{
 
 .parallax {
     background: url("img/parallax2.png")
-    repeat fixed 100%;
+    repeat fixed 50%;
 }
 
 .parallax-inner {
-    padding-top:30%;
-    padding-bottom: 30%;
+    padding-top:20%;
+    padding-bottom: 20%;
 }
 h1{
     text-align: center;
@@ -194,6 +148,30 @@ h1{
     letter-spacing: 3px;
 }
 
+
+/*---Get In Touch--*/
+
+.container{
+    background-color: blue;   
+}
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+}
+
+.btn-info{
+    align:center;
+    width: 50%;
+    letter-spacing: 2px;
+    background: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-info:hover {
+    transform: scale(1.05);
+}
 /*---Socials--*/
 .social a {
     font-size: 4.5em;
