@@ -152,10 +152,7 @@ h1{
 }
 
 /* --- Thumbnails --- */
-.img-thumbnail {
-    height: 200px;
-    width:  200px;
-    padding-left:20px;
+
 
 }
 
@@ -293,6 +290,11 @@ hr.light {
     }
     .parallax-inner{
         font-size: 50%;
+    }
+    .padding{
+    min-height: 1px;
+    padding-right:15px;
+    padding-left: 15px;
     }
      .display-4 {
         font-size: 160%;
