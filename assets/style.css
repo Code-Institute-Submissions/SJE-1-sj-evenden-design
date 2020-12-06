@@ -96,7 +96,7 @@ html, body{
     margin-top: .3rem;
     margin-bottom: 1rem;
 }
-/*---Services --*/
+/*---Skills --*/
 .fa-html5{
     color: #e54d26;
 }
@@ -157,9 +157,8 @@ h1{
 }
 
 /*---Cards --*/
-.card-img-top{
-    size: 200px;
-}
+
+
 /*---Get In Touch--*/
 
 .container{
@@ -291,6 +290,13 @@ hr.light {
     .parallax-inner{
         font-size: 50%;
     }
+
+.welcome {
+    margin: 0 auto;
+    padding-top: 2rem;
+
+}
+
     .padding{
     min-height: 1px;
     padding-right:15px;
@@ -303,7 +309,7 @@ hr.light {
         font-size: 2em;
         padding: .7rem;
     }
-}
+
 
 
 
