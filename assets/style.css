@@ -27,15 +27,17 @@ html, body{
 }
 /*---Image carousel and captions--*/
 .carousel-slide{
-    width: 100%;
+    max-width: 100%;
     background-color:#FFFFFF;
     margin-top:10px;
     overflow: hidden;
 }
-.img-fluid{
-    width: 100%;
+.carousel-inner{
+    margin: 0 auto;
+    max-width: 100%;
     height: auto;
     opacity: 90%;
+
 }
 
 .carousel-caption {
@@ -47,7 +49,6 @@ html, body{
 }
 
 .carousel-caption h1{
-   
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -77,11 +78,12 @@ html, body{
 .display-4 {
     justify-content: center;
      margin: 0px auto;
+   
 }
 .lead{
     font-weight: 700%;
     padding-bottom:1rem;
-    text-align: center; 
+    text-align: left; 
 }
 .padding{
     padding-bottom: 2rem;
@@ -162,8 +164,10 @@ h1{
 
 /*---Get In Touch--*/
 
-.container{
-    background-color: blue;   
+#contact{
+    background-color: blue;  
+    display: block;
+    width: 100%; 
 }
 .center-form {
     padding-top: 10px;
@@ -234,6 +238,7 @@ hr.light {
     font-size: 4em;
     padding: 2rem;
 }
+
   
 @media (max-width: 768px) {
     .carousel-caption {
