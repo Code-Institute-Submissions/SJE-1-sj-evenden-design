@@ -47,7 +47,7 @@ html, body{
 }
 
 .carousel-caption h1{
-    font-size: 800%;
+   
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
@@ -264,12 +264,12 @@ hr.light {
 @media (max-width: 576px) {
 
       .carousel-caption {
-        top: 40%;
+        top: 50%;
         color: #222;
     }
 
    .carousel-caption h1{
-        font-size: 250%;
+        font-size: 200%;
         font-weight: 500;
         text-transform: uppercase;
     }
@@ -290,6 +290,7 @@ hr.light {
     }
 
 .welcome {
+    width: 95%;
     margin: 0 auto;
     padding-top: 2rem;
 
@@ -307,25 +308,6 @@ hr.light {
         font-size: 2em;
         padding: .7rem;
     }
-.welcome {
-    width: 95%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .lead {
+        width: 95%;       
+    }
