@@ -27,6 +27,7 @@ html, body{
 }
 /*---Image carousel and captions--*/
 .carousel-slide{
+    height: 390px;
     background-color:#FFFFFF;
     margin-top:10px;
     overflow: hidden;
@@ -304,7 +305,8 @@ hr.light {
     min-height: 1px;
     padding-right:15px;
     padding-left: 15px;
-    }
+
+}
 
     .social a {
         font-size: 2em;
