@@ -55,15 +55,19 @@ The website was also tested on an Apple 6 smartphone, MOTO smartphone,  Apple Ma
 
 I enlisted two users to help and asked them to find the sites portfolio and contact areas. One person carried out the test on a desktop and the other person on a mobile device. The users could both carry out these tests without any issues.
 
-#### Code Validation
-The HTML code was validated using the W3C Mark-up Validation Service. 
-The CSS code was validated using Jigsaw CSS Validator.
-
 Below is an example of how the website looks on two different browsers and at two different sizes. The website is performing well across all platforms.
 
 [SJE WEBSITE SCREENSHOT 1](https://github.com/SJE-1/creativesolutions/blob/2fd56fbca811feb30988f85664eaf76a19c7e7c9/wireframe/sjetest1.png)
 
 [SJE WEBSITE SCREENSHOT 2](https://github.com/SJE-1/creativesolutions/blob/2fd56fbca811feb30988f85664eaf76a19c7e7c9/wireframe/sjetest2.png)
+
+#### Code Validation
+The HTML code was validated using the W3C Mark-up Validation Service. 
+The CSS code was validated using Jigsaw CSS Validator.
+
+- CSS: no issues were found
+- HTML: there was one warning for using a H1 one, however the H1 fit         contextually within the structure of the page.
+
 
 ## Deployment
 This website is deployed on the GitHub pages. It uses the master branch and it updates each time there is a new push to the repository. 
